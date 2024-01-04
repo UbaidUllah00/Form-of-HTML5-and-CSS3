@@ -1,0 +1,107 @@
+
+
+
+.img {
+    display: block;
+    width: 15%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.submit{
+    text-align: center;
+    align-items: center;
+    font-size: 60px;
+    background-color: red;
+    color:white;
+    margin-top: 20px;
+ 
+
+}
+.saylani{
+    text-align: center;
+    align-items: center;
+    background-color:blue;
+    color: whitesmoke;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+   
+    height: 110px;
+}
+.background{
+    background-image: url("./image/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+.para1{
+    color: white;
+    font-size: 30px;
+    box-shadow: 3px 5px 5px blue;
+}
+
+.fieldset{
+    margin-top: 80px;
+    margin-left: 300px;
+    margin-right: 300px;
+   
+}
+.r1{
+    font-size: 30px;
+    color: red;
+  
+}
+
+.c1{
+    color: white;
+    background-color: black;
+}
+
+.b1{
+    align-items: center;
+    text-align: center;
+    margin-top: 80px;
+    color: black;
+margin-left: 255px;
+
+    background-color: blue;
+    border: none;
+    height: 60px;
+  
+}
+
+.main{
+    background-color:black;
+    text-shadow: 2px 2px blue;
+    color: red;
+    font-size: 50px;
+}
+
+.b2{
+    align-items: center;
+    text-align: center;
+    margin-top: 80px;
+    color: black;
+margin-left: 255px;
+
+    background-color: blue;
+    border: none;
+    height: 60px;
+  
+}
+.b3{
+    align-items: center;
+    text-align: center;
+    margin-top: 80px;
+    color: black;
+margin-left: 255px;
+
+    background-color:green;
+    border: none;
+    height: 60px;
+  
+}

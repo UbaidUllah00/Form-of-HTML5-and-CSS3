@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 align="center"  class="main" >This Is Form</h1>
+    
+
+    <a href="account.html" ><input type="button" value="Step 1 : Account" class="b3"></a>
+    <a href="personal.html" ><input type="button" value="Step 2 : Personal" class="b3"></a>
+    <a href="review.html" ><input type="button" value="Step 3 : Review" class="b1"></a>
+
+
+    <fieldset class="fieldset" align="center">
+        <legend  class="r1"> <b>Your Review</b></legend>
+        <form action="">
+            <label for="email">
+                How did you hear About Us: 
+                <br>
+               <select name="select" id="select" >
+                <option value="" disabled selected class="c1">Choose your option</option>
+                <option value=""  >My friends </option>
+                <option value="" >Relatives</option>
+                <option value=""  >from Youtube</option>
+               </select>
+            </label>
+            <br>
+            <br>
+
+        
+          <p>Would you visit Again:</p>
+          <input type="radio" name="fav" id="yes">
+          <label for="yes">Yes</label>
+          <input type="radio" name="fav" id="No">
+          <label for="No">No</label>
+          <input type="radio" name="fav" id="maybe">
+          <label for="maybe">May be</label>
+
+            <br>
+
+
+            <br>
+            <label for="tarea">
+                Comment:
+                <br>
+                
+             <textarea name="textarea" id="tarea" cols="30" rows="5"></textarea>
+            </label>
+            <br>
+            <br>
+            <label for="doc">Document:
+                <br>
+            <input type="file" name="doc" id="doc">
+            </label>
+            <br>
+<br>
+
+            <label for="singme"> 
+               
+                <input type="checkbox" name="singme" id="singme" required>
+                
+                Sign me up for Email update.
+            </label>
+
+
+        </form>
+        <br>
+        <a href="personal.html"><img src="./image/2.png" width="120px"  alt=""></a>
+        <a href="submit.html"><img src="./image/4.png" width="120px"  alt="" onclick="click()"></a>
+    
+    
+    </fieldset>
+    
+ 
+</body>
+</html>
